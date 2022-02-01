@@ -1,0 +1,24 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+.box{
+	display: flex;
+	width: 100%;
+	justify-content:space-between;
+	align-items: center ;
+	height: 100vh;
+	 gap: 1em;
+}
+.item{
+	background-color: #bd1818;
+	font-size: 20px;
+	border-radius: 5px;
+	padding: 15px;
+	width: 100px;
+	height: 250px;
+}
+.item:nth-child(odd){
+	background-color: green;
+}
